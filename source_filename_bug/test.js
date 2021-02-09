@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-const InlinedTestManifestPlugin = require('../inlined-test-manifest-plugin');
+const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
 
 const config = {
   context: __dirname,
@@ -22,7 +22,7 @@ const config = {
     ]
   },
   plugins: [
-    new InlinedTestManifestPlugin(),
+    new WebpackManifestPlugin(),
   ],
 };
 
