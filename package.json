@@ -5,6 +5,6 @@
     "webpack-cli": "^4.5.0"
   },
   "scripts": {
-    "test": "yarn run webpack"
+    "test": "node source_filename_bug/test.js"
   }
 }

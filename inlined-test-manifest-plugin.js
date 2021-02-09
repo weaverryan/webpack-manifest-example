@@ -107,8 +107,8 @@ const writeManifestFile = (compiler, compilation, moduleAssets, assetTypeModuleA
   // assets only show up so far as auxiliary assets, but that is only their
   // final filename, with no map back to their original filename
   // by looping over assets, we can info about the source filename
+  console.log(stats.assets);
   stats.assets.forEach((asset) => {
-    console.log(asset.info.sourceFilename);
     let name;
     if (moduleAssets[asset.name]) {
       name = moduleAssets[asset.name];
