@@ -16,7 +16,7 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.(png)/,
+        test: /\.(svg)/,
         type: 'asset/resource'
       }
     ]

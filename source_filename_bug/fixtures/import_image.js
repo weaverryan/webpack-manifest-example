@@ -1,1 +1,1 @@
-import '../../src/images/logo.png';
+import '../../src/images/manifest.svg';
